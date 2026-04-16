@@ -11,6 +11,8 @@ Landing page estática construída com Astro, publicada no GitHub Pages com dom�
 | Arquivo | Descrição | Quando ler |
 |---|---|---|
 | `docs/index.md` | Este arquivo — mapa de navegação | Sempre primeiro |
+| `docs/landing-content.md` | Conteúdo editorial, posicionamento e direção visual da landing page | Antes de desenhar ou implementar a home |
+| `docs/agent.md` | Comportamento do agente de IA, restrições e princípios de trabalho | Antes de qualquer decisão de implementação |
 | `docs/deploy.md` | Processo de deploy, GitHub Pages e Cloudflare DNS | Antes de qualquer alteração de deploy |
 
 ## Estrutura do Projeto
@@ -24,7 +26,10 @@ marlondantas-dev/
 ├── astro.config.mjs         # Configuração do Astro
 ├── package.json
 └── docs/
-    └── index.md             # Este arquivo
+    ├── index.md             # Este arquivo
+    ├── landing-content.md   # Conteúdo e direção da landing
+    ├── agent.md             # Comportamento do agente de IA
+    └── deploy.md            # Processo de deploy
 ```
 
 ## Stack
@@ -37,3 +42,7 @@ marlondantas-dev/
 ## Estágio Atual
 
 **Fase 1 — Em Construção**: Página placeholder para validar DNS e domínio antes de desenvolver o portfólio completo.
+
+## Próximo Documento
+
+Para a construção da home, o documento principal passa a ser `docs/landing-content.md`.
